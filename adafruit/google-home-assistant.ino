@@ -4,16 +4,16 @@
 #include <FirebaseArduino.h> 
 
 // Set firebase credentials.
-#define FIREBASE_HOST "fir-4b37d.firebaseio.com"
-#define FIREBASE_AUTH "yeFF0xCriB9IqpTGUydqZL4wTbb9AjVWzOysuDIh"
+#define FIREBASE_HOST "Add Firebase Database link"
+#define FIREBASE_AUTH "Add Auth Token"
 
-#define WIFI_SSID "Ashwani"
-#define WIFI_PASS "123456789"
+#define WIFI_SSID "Add WiFi Name"
+#define WIFI_PASS "Add WiFi Password"
 
 #define MQTT_SERV "io.adafruit.com"
 #define MQTT_PORT 1883
-#define MQTT_NAME "ashwani09"
-#define MQTT_PASS "9516d044461748f48919726e4f0861b1"
+#define MQTT_NAME "Add User Name"
+#define MQTT_PASS "Add Auth Token"
 
 String status;
 String bulb1;
