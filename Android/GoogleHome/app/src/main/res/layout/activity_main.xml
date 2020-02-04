@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FC141313"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="221dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/indoor_lighting" />
+
+    <LinearLayout
+        android:id="@+id/lightsLL"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="8dp"
+        android:background="#CC302C2C"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewBulb"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/bulb_icon_off" />
+
+        <Switch
+            android:id="@+id/switchBulb"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/amiko"
+            android:gravity="center_vertical"
+            android:text="Lights On"
+            android:paddingEnd="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="8dp"
+        android:background="#CC302C2C"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewFan"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/fan_icon" />
+
+        <Switch
+            android:id="@+id/switchFan"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/amiko"
+            android:gravity="center_vertical"
+            android:text="Fan On"
+            android:paddingEnd="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:background="#CC302C2C"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView4"-->
+<!--            android:layout_width="120dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            app:srcCompat="@drawable/temperature_icon" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView5"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="67dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_weight="2"-->
+<!--            android:fontFamily="@font/amiko"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:text="Temperature"-->
+<!--            android:textAppearance="@style/TextAppearance.AppCompat.Body2"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textStyle="bold" />-->
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_marginBottom="8dp"-->
+<!--        android:background="#CC302C2C"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView5"-->
+<!--            android:layout_width="120dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            app:srcCompat="@drawable/humidity_icon" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textView6"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="67dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_weight="2"-->
+<!--            android:fontFamily="@font/amiko"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:text="Humidity"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textAppearance="@style/TextAppearance.AppCompat.Body2"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textStyle="bold" />-->
+<!--    </LinearLayout>-->
+
+</LinearLayout>
+

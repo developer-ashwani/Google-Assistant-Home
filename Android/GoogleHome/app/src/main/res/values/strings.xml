@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Google Home</string>
+    <string name="light_02">Light 02</string>
+    <string name="light_01">Light 01</string>
+</resources>

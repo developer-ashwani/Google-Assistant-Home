@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FC141313"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        android:background="#CC302C2C"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewDialogAllLights"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:scaleType="fitCenter" />
+
+        <Switch
+            android:id="@+id/switchAllLights"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginEnd="12dp"
+            android:fontFamily="@font/amiko"
+            android:gravity="center_vertical"
+            android:text="All Lights"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        android:background="#CC302C2C"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewDialogLight01"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:scaleType="fitCenter" />
+
+        <Switch
+            android:id="@+id/switchLights01"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginEnd="12dp"
+            android:fontFamily="@font/amiko"
+            android:gravity="center_vertical"
+            android:text="@string/light_01"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        android:background="#CC302C2C"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewDialogLight02"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:scaleType="fitCenter" />
+
+        <Switch
+            android:id="@+id/switchLight02"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginEnd="12dp"
+            android:fontFamily="@font/amiko"
+            android:gravity="center_vertical"
+            android:text="@string/light_02"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        android:background="#CC302C2C"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:background="#CC302C2C"
+            android:fontFamily="@font/amiko"
+            android:text="Cancel"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:background="#CC302C2C"
+            android:fontFamily="@font/amiko"
+            android:text="OK"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
